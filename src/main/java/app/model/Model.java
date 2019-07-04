@@ -12,6 +12,7 @@ public class Model {
     private List<User> model;
     private List<User> model1;
 
+
     public static Model getInstance() {
         return instance;
     }
