@@ -30,6 +30,7 @@ public class AddServlet extends HttpServlet {
         User user2 = new User(name, password);
         Model model = Model.getInstance();
         Model model1 = Model.getInstance();
+        Model model2 = Model.getInstance();
         model.add(user);
 
         req.setAttribute("userName", name);
