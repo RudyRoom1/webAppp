@@ -5,7 +5,7 @@ import java.util.Objects;
 public class User {
     private String name;
     private String password;
-    private String password1;
+    
 
     public User(String name, String password) {
         this.name = name;
