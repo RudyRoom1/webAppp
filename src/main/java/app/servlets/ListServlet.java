@@ -16,6 +16,7 @@ public class ListServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Model model = Model.getInstance();
         List<String> names = model.list();
+        List<String> names1 = model.list();
         req.setAttribute("userNames",names);
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/list.jsp");
